@@ -1,9 +1,30 @@
-<mxfile host="app.diagrams.net" modified="2023-08-04T02:18:31.329Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" version="21.5.2" etag="WDWsmLBb0yFx4c4xS-Pp" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-04T02:23:22.046Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="ueb8CPLPN7otuNecG97r" version="21.5.2" type="github">
   <diagram name="第 1 页" id="4qptP76Gj1Wyf4yaXTAh">
-    <mxGraphModel>
+    <mxGraphModel dx="1306" dy="805" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="I-9dvNje_bcYElF_B9JH-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="I-9dvNje_bcYElF_B9JH-1" target="I-9dvNje_bcYElF_B9JH-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="I-9dvNje_bcYElF_B9JH-1" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;客户端&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="150" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="I-9dvNje_bcYElF_B9JH-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="I-9dvNje_bcYElF_B9JH-2" target="I-9dvNje_bcYElF_B9JH-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="I-9dvNje_bcYElF_B9JH-2" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;php服务器&lt;/font&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="110" y="300" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="I-9dvNje_bcYElF_B9JH-4" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;查询&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="230" y="150" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="I-9dvNje_bcYElF_B9JH-5" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;php服务器&lt;/font&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="110" y="560" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="I-9dvNje_bcYElF_B9JH-7" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;建立socket，&amp;nbsp;&lt;br&gt;发送Tcp报文&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="165" y="458" width="110" height="50" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
